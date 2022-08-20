@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 30vw);
+    gap: 10px;
+}
+
+.square {
+    border-color: black;
+    outline: solid;
+    text-align: center;
+    vertical-align: center;
+}
+
+.blue {
+    background-color: blue;
+}
